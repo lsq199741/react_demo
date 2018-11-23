@@ -1,13 +1,13 @@
 import React, {Component} from 'react'
-import Top from './top'
-import Bottom from './bottom'
+import Header from './header'
+import Footer from './footer'
 
 class Home extends Component {
     render() {
         return (
             <div>
-                <Top/>
-                <Bottom/>
+                <Header/>
+                <Footer/>
             </div>
         );
     }

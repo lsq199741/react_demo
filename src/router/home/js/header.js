@@ -1,9 +1,9 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
-import '../css/top.css'
+import '../css/header.css'
 import logo from '../static/logo.png'
 
-class Top extends Component {
+class Header extends Component {
     render() {
         return (
             <div className='spice-header'>
@@ -15,4 +15,4 @@ class Top extends Component {
     }
 }
 
-export default Top;
+export default Header;
