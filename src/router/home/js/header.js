@@ -6,9 +6,13 @@ import logo from '../static/logo.png'
 class Header extends Component {
     render() {
         return (
-            <div className='spice-header'>
-                <div className='spice-navbar-logo'>
+            <div className='spice_header'>
+                <div className='nav_logo'>
                     <Link to='/'><img src={logo} className="App-logo" alt="logo"/></Link>
+                </div>
+
+                <div className={'nav_menu'}>
+
                 </div>
             </div>
         );
